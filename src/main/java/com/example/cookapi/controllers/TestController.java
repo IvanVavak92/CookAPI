@@ -14,8 +14,8 @@ public class TestController {
     }
 
     @GetMapping("/user")
-        public String userAccess() {
-            return "User content.";
-        }
+    public String userAccess() {
+        return "User content.";
     }
 }
+
